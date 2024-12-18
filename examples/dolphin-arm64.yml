@@ -16,7 +16,6 @@ configure:
         - tests
     skip:
         - qt3d
-        - qt5compat
         - qtactiveqt
         - qtcharts
         - qtcoap
@@ -43,7 +42,6 @@ configure:
         - qtsensors
         - qtserialbus
         - qtserialport
-        - qtshadertools
         - qtspeech
         - qttools
         - qttranslations
@@ -54,13 +52,13 @@ configure:
         - qtwebsockets
         - qtwebview
     feature:
-        concurrent: false
+        concurrent: true
         dbus: false
         gif: false
         ico: false
         imageformat_bmp: false
         jpeg: false
-        network: false
+        network: true
         printsupport: false
         qmake: false
         sql: false
